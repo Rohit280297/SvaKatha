@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background: #fafafa;
+  margin: auto;
+  position: relative;
+}
+
+
+.Svakatha{
+  padding: 48px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  letter-spacing: 5px;
+  font-weight: normal;
+  font-size: 25px;
+  border-bottom: 1px solid #000;
+  z-index: 2;
+  background: #fafafa;
+}
+
+#PageTitle{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 16px;
+  padding: 8px;
+
+}
+
+#PageTitle:hover{
+  /* background: #e5e5e5; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08); */
+  cursor: pointer;
+}
+
+footer{
+  padding:72px;
+  background: #ebebeb;
+  margin-top: 128px;
+}
+
+#FooterTitle{
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 35px;
+  color: #000;
+  line-height: 2;
+}
+
+#footer_copyright{
+  letter-spacing: 2px;
+  font-weight: 200;
+
+}
+
+#footer_subtitle{
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.ScrollButton{
+  background: transparent;
+  color: black;
+  font-size: 45px;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.ScrollButton:hover{
+  animation: bounce 1s ease infinite;
+  animation-fill-mode:forwards;
+}
+
+@keyframes bounce{
+  0%{
+      transform: translateY(0);
+  }
+  100%{
+      transform: translateY(-16px);
+  }
+}

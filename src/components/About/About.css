@@ -1,0 +1,33 @@
+.About{
+    text-align: left;
+    padding: 0;
+    position: relative;
+    top: 128px;
+}
+
+.AboutImage{
+    height: 80vh;
+    /* padding: 32px ; */
+    position: relative;
+    top: 128px;
+}
+
+#AboutImage{
+    width:80%;
+    height: 100%;
+}
+
+
+#AboutTitle{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: #000;
+}
+
+
+.About p{
+    line-height: 2;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
