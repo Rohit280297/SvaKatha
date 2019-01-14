@@ -1,0 +1,40 @@
+.ContactForm{
+    padding: 16px 0 128px 0;
+    position: relative;
+    top: 128px;
+}
+
+.ContactUsTitle{
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 2;
+}
+
+#inputField{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: block;
+    width: 30%;
+    margin: 3vmin auto;
+}
+
+input[type=submit]{
+    width: 10%;
+    padding: 8px 16px;
+}
+
+input[type=submit]:hover{
+    background: #000;
+    color: white;
+}
+
+@media (max-width:1024px){
+    #inputField{
+        width: 80%;
+        font-size: 3vmin;
+        color: #000;
+    }
+}
+

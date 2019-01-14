@@ -1,0 +1,26 @@
+.Hamburger{
+    width: 64px;
+    height: 64px;
+    display: inline;
+    position: absolute;
+    top: 32px;
+    right: 2px;
+}
+
+#HamburgerDiv{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.Hamburger:hover{
+    cursor: pointer;
+}
+
+@media (min-width : 769px){
+    .Hamburger{
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+.Sidebar{
+    width: 80%;
+    background: #e5e5e5;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 300;
+}
+
+#menuCancel{
+    background: transparent;
+    font-size: 32px;
+    position: absolute;
+    top: 22px;
+    right: 34px;
+    outline: none;
+    border: none;
+}
+
+#menuCancel:hover{
+    cursor: pointer;
+}
+
+.SidebarList{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    padding: 0;
+}
+
+#SidebarItems{
+    list-style-type: none;
+    font-size: 5vmin;
+    padding: 64px auto;
+    letter-spacing: 3px;
+    color: #000;
+    margin: 16px 0;
+}

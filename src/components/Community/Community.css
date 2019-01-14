@@ -1,0 +1,90 @@
+#CommunityTitle{
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0px 0 48px 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 64px;
+    
+}
+
+.Community{
+    position: relative;
+    top: 128px;
+}
+
+.CommunityForm{
+    text-align: left;
+}
+
+#Title{
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+
+label{
+    display: block;
+    /* font-weight: 200; */
+    color: #000;
+    letter-spacing: 1px;
+    margin: 16px 0;
+}
+
+#ProfileInput{
+    padding: 5px;
+    display: block;
+    width: 70%;
+}
+
+#LoginButton{
+    background:  #3f4040;
+    color: white;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    width: 40%;
+    padding: 12px 16px;
+    border-radius: 2px;
+    margin:48px 16px 16px 0;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+#RegisterButton{
+        background:  #e5e5e5;
+        color: black;
+        font-weight: 200;
+        outline: none;
+        border: none;
+        width: 40%;
+        padding: 12px 16px;
+        border-radius: 2px;
+        margin:48px 0 16px 0;
+        box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+#LoginButton:hover{
+    background:#3ba1da;
+}
+
+#RegisterButton:hover{
+    opacity: 0.7;
+}
+
+#forgot{
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+
+.CommunityDetails{
+    text-align: left;
+}
+
+.CommunityDetails p{
+    line-height: 2;
+    letter-spacing: 1px;
+
+}
